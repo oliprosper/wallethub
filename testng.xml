@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite" thread-count="1">
+	<parameter name="groupReport" value="/report.html" />
+	<parameter name="device" value="desktop" />
+	<parameter name="browser" value="chrome" />
+  <test name="Test" preserve-order="true">
+    <classes>
+      <class name="com.wallethub.test.Login"/>
+      <class name="com.wallethub.test.Profile"/>
+      <class name="com.wallethub.test.Facebook"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

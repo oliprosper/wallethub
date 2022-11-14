@@ -1,0 +1,20 @@
+{
+	"login": {
+		"email": "oliprosper22@gmail.com",
+		"password": "@Password1",
+		"wrongEmail": "olip@gmail.com",
+		"fullName": "Oli Prosper",
+		"company": "Test Insurance Company"
+	},
+	"profile": {
+		"url": "https://wallethub.com/profile/13732055i",
+		"policyOption": "Health Insurance",
+		"reviewer": "Your Review"
+	},
+	"facebook": {
+		"email": "oliprosper22@gmail.com",
+		"password": "@Password1",
+		"fullName": "Oli Prosper",
+		"url": "https://www.facebook.com"
+	}
+}
